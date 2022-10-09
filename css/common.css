@@ -6,6 +6,12 @@ selector {
     another-property: value;
 */
 
+body {
+    margin: 40;
+    padding: 25;
+    box-sizing: border-box;
+}
+
 :root {font-family: 'Bebas Neue', cursive;
 }
 
@@ -28,8 +34,13 @@ span {
     color: #f40106!important;;
 }
 
+button {
+    margin: 100;
+    padding: 25;
+}
+
 * {
-    margin: 40;
+    margin: 100;
     padding: 25;
     box-sizing: border-box;
 }
