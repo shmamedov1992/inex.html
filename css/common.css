@@ -7,8 +7,8 @@ selector {
 */
 
 body {
-    margin: 40;
-    padding: 25;
+    margin: 40px;
+    padding: 25px;
     box-sizing: border-box;
 }
 
@@ -17,26 +17,34 @@ body {
 
 p {font-family: 'PT Sans', sans-serif;
 }
-
-p {
+p {font-size: 30px;
+    text-align: left;
     color:  #717474;
+    margin: 20px;
+    padding: 10px;
 }
 img {
-    width: 20%;
+    width: 25%;
     display: block;
 }
 
 h2 {
+    font-size: 60px;
+    text-align: left;
     color: #222323;
 }
 
 span {
+    margin: 40px;
+    padding: 0;
+    font-size: 30px;
+    text-align: left;
     color: #f40106!important;;
 }
 
 button {
-    margin: 100;
-    padding: 25;
+    margin: 10px 50px 20px;
+    padding: 20px;
 }
 
 * {
