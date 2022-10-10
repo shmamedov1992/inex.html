@@ -35,9 +35,9 @@ h2 {
 }
 
 span {
-    margin: 40px;
+    margin: 5px;
     padding: 0;
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     color: #f40106!important;;
 }
@@ -45,6 +45,11 @@ span {
 button {
     margin: 10px 50px 20px;
     padding: 20px;
+    border-color: #ffffff05;
+}
+
+alternative-color {
+color: #ffffff05;
 }
 
 * {
