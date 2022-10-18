@@ -10,40 +10,188 @@ body {
     margin: 40px;
     padding: 25px;
     box-sizing: border-box;
+    display: block;
+    flex-basis: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-width: 320px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 100px;
+    position: relative;
+    max-width: 800px;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #222323;
+    border-width: 0px;
+    border-style: none;
+    border-color:rgb(11, 11, 11);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-top-style: none;
+
 }
 
 :root {font-family: 'Bebas Neue', cursive;
 }
 
-p {font-family: 'PT Sans', sans-serif;
-}
-p {font-size: 30px;
-    text-align: left;
-    color:  #717474;
-    margin: 20px;
-    padding: 10px;
-}
-img {
-    width: 25%;
-    display: block;
-}
+.new-colectioin 
 
 h2 {
+    font-family: 'Bebas Neue', cursive;
     font-size: 60px;
     text-align: left;
     color: #222323;
 }
 
-span {
-    margin: 5px;
-    padding: 0;
-    font-size: 40px;
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-align: left;
+    text-decoration: auto;
+    color:  #717474;
+    border-bottom: #717474;
+    display: inline;
+    height: auto;
+    width: auto;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+
+}
+
+.carousel-control-color {
+    color:white;
+}
+
+.carousel-control-width {
+    width: 15%;
+}
+
+.carousel-control-opacity {
+    opacity: .5;
+}
+
+.carousel-control-hover-opacity {
+    opacity: .9;
+}
+
+.carousel-control-transition {
+    transition: opacity .15s ease;
+}
+
+.carousel-indicator-width {
+    width:30px;
+} 
+
+.carousel-indicator-height {
+    height: 3px;
+}
+
+.carousel-indicator-hit-area-height {
+    height: 10px;
+}
+.carousel-indicator-spacer {
+    cursor: 3px;
+}
+
+.carousel-indicator-opacity {
+    opacity: .5;
+}
+
+.carousel-indicator-active-bg {
+    initial-letter-align: rgb(13, 13, 13);
+} 
+
+.carousel-indicator-active-opacity {
+    opacity: 1;
+} 
+
+.carousel-indicator-transition {
+    transition: opacity .6s ease;
+}      
+
+.carousel-caption-width {
+    width: 70%;
+}
+
+.carousel-caption-color {
+    color: rgb(13, 13, 13);
+}
+
+.carousel-caption-padding-y {
+    padding: 1.25rem;
+}
+
+.carousel-caption-spacer {
+    cursor: 1.25rem;
+}  
+
+.carousel-control-icon-width {
+    width: 2rem;
+} 
+
+.carousel-control-prev-icon-bg {
+    scroll-margin-bottom: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+}
+
+.carousel-control-next-icon-bg {
+    box-direction: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>")
+}
+
+.carousel-transition-duration {
+    transition-duration: .6s;
+}
+
+.carousel-transition {
+    transform: carousel-transition-duration transform 2s ease, opacity .5s ease-out;  
+}
+
+img {
+    width: 25%;
+    height: auto;
+    display: block;
+}
+
+.point {
+    margin: 10px;
+    padding: 0;
+    font-size: 30px;
+    text-align: left;
+    color: #f40106;
+}
+
+span {
+    margin: 10px;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
     color: #f40106!important;;
 }
 
 button {
-    margin: 10px 50px 20px;
+    margin: 100px 50px 20px;
     padding: 20px;
     border-color: #ffffff05;
 }
